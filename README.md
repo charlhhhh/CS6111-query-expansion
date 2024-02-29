@@ -1,4 +1,4 @@
-# CS6111-query-expansion
+# [CS6111-query-expansion](https://www.cs.columbia.edu/~gravano/cs6111/proj1.html)
 # Names and UNIs:
 Charlie Shen (cs4206) and Zhehong Fu (zf2307)
 # List of files
