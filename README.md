@@ -45,4 +45,5 @@ Our method for refining search queries is both effective and uncomplicated. It h
 4. To discern the most valuable keywords for our query, we tally the frequency of each word across the "contents" list, employing a dictionary termed “freq”. This dictionary maps each keyword to the number of its occurrences, aggregating data from all relevant results.
 
 5. We then order the dictionary by frequency and select the top two keywords not previously included in the query. These are appended to the query in descending order of frequency.
+
 This approach has proven its efficacy, consistently delivering a 100% precision rate in a single iteration, provided the initial precision exceeds zero.
