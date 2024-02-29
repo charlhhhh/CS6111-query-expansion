@@ -30,6 +30,7 @@ Note: if `<query>` has multiple words, be sure to put them between quotes (e.g
 3. Within the main function, the program continuously initiates searches to compare the obtained precision against the predefined target precision. The process terminates under two conditions:
    - If the precision at the 10th result is zero, the program ends, displaying a message through `print_precision_equal_zero`.
    - If the acquired precision meets or exceeds the target precision, the program concludes with a `print_feedback_achieve` message, indicating successful achievement.
+
 Additional Notes:
 1. Handling of Non-HTML Documents: The program utilizes the `fileFormat` key from the search results to identify non-HTML documents, as specified on the Google JSON website. Absence of the `fileFormat` key indicates the document is in HTML format.
 2. Interaction with the `Enter` Key: Pressing the `Enter` key during program execution is interpreted as a 'no' response, facilitating user interaction and decision-making processes.
